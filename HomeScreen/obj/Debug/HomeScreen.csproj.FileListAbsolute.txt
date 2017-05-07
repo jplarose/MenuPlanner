@@ -1,0 +1,9 @@
+C:\Software\Menu\MenuPlanningApplication\HomeScreen\bin\Debug\HomeScreen.exe.config
+C:\Software\Menu\MenuPlanningApplication\HomeScreen\bin\Debug\HomeScreen.exe
+C:\Software\Menu\MenuPlanningApplication\HomeScreen\bin\Debug\HomeScreen.pdb
+C:\Software\Menu\MenuPlanningApplication\HomeScreen\obj\Debug\HomeScreen.csprojResolveAssemblyReference.cache
+C:\Software\Menu\MenuPlanningApplication\HomeScreen\obj\Debug\HomeScreen.Properties.Resources.resources
+C:\Software\Menu\MenuPlanningApplication\HomeScreen\obj\Debug\HomeScreen.csproj.GenerateResource.Cache
+C:\Software\Menu\MenuPlanningApplication\HomeScreen\obj\Debug\HomeScreen.exe
+C:\Software\Menu\MenuPlanningApplication\HomeScreen\obj\Debug\HomeScreen.pdb
+C:\Software\Menu\MenuPlanningApplication\HomeScreen\obj\Debug\HomeScreen.HomeScreen.resources
