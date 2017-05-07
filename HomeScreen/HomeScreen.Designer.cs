@@ -98,7 +98,7 @@
             // gbMenuContainer
             // 
             this.gbMenuContainer.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.gbMenuContainer.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.gbMenuContainer.BackColor = System.Drawing.SystemColors.ControlLight;
             this.gbMenuContainer.Controls.Add(this.lblSaturday);
             this.gbMenuContainer.Controls.Add(this.lblFriday);
             this.gbMenuContainer.Controls.Add(this.lblThursday);
