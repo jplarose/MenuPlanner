@@ -64,6 +64,10 @@
             this.pbFridayBreakfast = new System.Windows.Forms.PictureBox();
             this.pbSaturdayBreakfast = new System.Windows.Forms.PictureBox();
             this.pbSundayBreakfast = new System.Windows.Forms.PictureBox();
+            this.lblAddRecipe = new System.Windows.Forms.Label();
+            this.gbAddRecipe = new System.Windows.Forms.GroupBox();
+            this.gbMyRecipes = new System.Windows.Forms.GroupBox();
+            this.lblMyRecipes = new System.Windows.Forms.Label();
             this.gbMenuContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbMondaySnacks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTuesdaySnacks)).BeginInit();
@@ -93,6 +97,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbFridayBreakfast)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSaturdayBreakfast)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSundayBreakfast)).BeginInit();
+            this.gbAddRecipe.SuspendLayout();
+            this.gbMyRecipes.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbMenuContainer
@@ -518,12 +524,54 @@
             this.pbSundayBreakfast.TabStop = false;
             this.pbSundayBreakfast.DoubleClick += new System.EventHandler(this.Meal_DoubleClick);
             // 
+            // lblAddRecipe
+            // 
+            this.lblAddRecipe.AutoSize = true;
+            this.lblAddRecipe.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddRecipe.Location = new System.Drawing.Point(6, 16);
+            this.lblAddRecipe.Name = "lblAddRecipe";
+            this.lblAddRecipe.Size = new System.Drawing.Size(164, 31);
+            this.lblAddRecipe.TabIndex = 1;
+            this.lblAddRecipe.Text = "Add Recipe";
+            this.lblAddRecipe.Click += new System.EventHandler(this.lblAddRecipe_Click);
+            // 
+            // gbAddRecipe
+            // 
+            this.gbAddRecipe.Controls.Add(this.lblAddRecipe);
+            this.gbAddRecipe.Location = new System.Drawing.Point(18, 142);
+            this.gbAddRecipe.Name = "gbAddRecipe";
+            this.gbAddRecipe.Size = new System.Drawing.Size(171, 55);
+            this.gbAddRecipe.TabIndex = 2;
+            this.gbAddRecipe.TabStop = false;
+            // 
+            // gbMyRecipes
+            // 
+            this.gbMyRecipes.Controls.Add(this.lblMyRecipes);
+            this.gbMyRecipes.Location = new System.Drawing.Point(194, 142);
+            this.gbMyRecipes.Name = "gbMyRecipes";
+            this.gbMyRecipes.Size = new System.Drawing.Size(176, 55);
+            this.gbMyRecipes.TabIndex = 3;
+            this.gbMyRecipes.TabStop = false;
+            // 
+            // lblMyRecipes
+            // 
+            this.lblMyRecipes.AutoSize = true;
+            this.lblMyRecipes.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMyRecipes.Location = new System.Drawing.Point(6, 16);
+            this.lblMyRecipes.Name = "lblMyRecipes";
+            this.lblMyRecipes.Size = new System.Drawing.Size(166, 31);
+            this.lblMyRecipes.TabIndex = 0;
+            this.lblMyRecipes.Text = "My Recipes";
+            this.lblMyRecipes.Click += new System.EventHandler(this.lblMyRecipes_Click);
+            // 
             // HomeScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(948, 598);
+            this.Controls.Add(this.gbMyRecipes);
+            this.Controls.Add(this.gbAddRecipe);
             this.Controls.Add(this.gbMenuContainer);
             this.Name = "HomeScreen";
             this.Text = "Menu Planner";
@@ -557,6 +605,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbFridayBreakfast)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSaturdayBreakfast)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSundayBreakfast)).EndInit();
+            this.gbAddRecipe.ResumeLayout(false);
+            this.gbAddRecipe.PerformLayout();
+            this.gbMyRecipes.ResumeLayout(false);
+            this.gbMyRecipes.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -599,6 +651,10 @@
         private System.Windows.Forms.PictureBox pbFridayBreakfast;
         private System.Windows.Forms.PictureBox pbSaturdayBreakfast;
         private System.Windows.Forms.PictureBox pbSundayBreakfast;
+        private System.Windows.Forms.Label lblAddRecipe;
+        private System.Windows.Forms.GroupBox gbAddRecipe;
+        private System.Windows.Forms.GroupBox gbMyRecipes;
+        private System.Windows.Forms.Label lblMyRecipes;
     }
 }
 

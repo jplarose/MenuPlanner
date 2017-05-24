@@ -27,6 +27,16 @@ namespace HomeScreen
             MessageBox.Show("Snack Message goes here");
         }
 
+        private void lblAddRecipe_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblMyRecipes_Click(object sender, EventArgs e)
+        {
+
+        }
+
         // Still need to create more controls (moving from one week to the next via buttons, adding a recipe, etc)
         // and including calendar functionality
     }
