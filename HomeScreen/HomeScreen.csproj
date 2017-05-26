@@ -87,5 +87,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogicLayer\LogicLayer.csproj">
+      <Project>{2674db0d-dee8-476d-bb85-33fc0583b917}</Project>
+      <Name>LogicLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
