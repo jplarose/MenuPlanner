@@ -108,6 +108,7 @@
             // pbMealPic
             // 
             this.pbMealPic.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pbMealPic.Image = global::HomeScreen.Properties.Resources.DefaultImage5;
             this.pbMealPic.Location = new System.Drawing.Point(396, 29);
             this.pbMealPic.Name = "pbMealPic";
             this.pbMealPic.Size = new System.Drawing.Size(130, 120);

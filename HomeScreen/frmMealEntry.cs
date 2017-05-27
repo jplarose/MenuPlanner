@@ -17,6 +17,7 @@ namespace HomeScreen
         public frmMealEntry()
         {
             InitializeComponent();
+            pbMealPic.ImageLocation = "C:\\Software\\Menu\\MenuPlanningApplication\\HomeScreen\\Assets\\DefaultImage.png";
         }
 
         private void btnMyRecipes_Click(object sender, EventArgs e)
